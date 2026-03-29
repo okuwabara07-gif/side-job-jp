@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: '副業NOTE', template: '%s | 副業NOTE' },
   description: '在宅副業・フリーランス・投資など副業情報を徹底解説',
+  verification: { google: 'xpdiFRYHloMJxfhCT-IMD08p5na4v9WUqvPY9OrDsHs' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
