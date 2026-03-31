@@ -1,2 +1,3 @@
 # side-job-jp
-副業NOTE
+
+Updated: 2026-04-01
