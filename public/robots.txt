@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://side-job-jp.vercel.app/sitemap.xml
