@@ -7,9 +7,9 @@ const AMAZON_TRACKING_ID = process.env.AMAZON_TRACKING_ID || 'haircolorab22-22';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d938.5253b9ee.e71aefe8';
 const MOSHIMO_ID = '1184522';
 
-const SITE_NAME = '副業NOTE';
-const TOPIC = '副業・在宅ワーク・収入アップ';
-const CRITERIA = '稼ぎやすさ・始めやすさ・リスク・継続性・収入目安';
+const SITE_NAME = '副業Lab';
+const TOPIC = '副業・在宅ワーク・フリーランス';
+const CRITERIA = '収益性・始めやすさ・リスク・継続性・口コミ';
 
 function moshimoAmazonLink(keyword) {
   const searchUrl = encodeURIComponent(`https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_TRACKING_ID}`);
