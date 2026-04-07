@@ -12,6 +12,10 @@ const KEYWORDS = [
   TOPIC+' おすすめランキング', TOPIC+' 比較', TOPIC+' 選び方',
   TOPIC+' 初心者向け', TOPIC+' 効果', TOPIC+' 口コミ',
   TOPIC+' 人気', TOPIC+' コスパ', TOPIC+' プロおすすめ', TOPIC+' 最新',
+  // manga keywords
+  '副業 漫画 おすすめ',
+  'お金 漫画 ランキング',
+  '起業 漫画',
 ];
 
 function callAnthropic(prompt) {
