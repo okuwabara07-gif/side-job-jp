@@ -7,9 +7,9 @@ const AMAZON_TRACKING_ID = process.env.AMAZON_TRACKING_ID || 'haircolorab22-22';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d938.5253b9ee.e71aefe8';
 const MOSHIMO_ID = '1184522';
 
-const SITE_NAME = 'side job';
-const TOPIC = 'ヘアカラー・白髪染め・セルフカラー';
-const CRITERIA = '染まりやすさ・色持ち・ダメージ・コスパ・使いやすさ';
+const SITE_NAME = '副業JP';
+const TOPIC = '副業・在宅ワーク・ネット収入・お金を稼ぐ方法';
+const CRITERIA = '収益性・始めやすさ・安定性・コスパ・口コミ';
 
 function moshimoAmazonLink(keyword) {
   const searchUrl = encodeURIComponent(`https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_TRACKING_ID}`);
