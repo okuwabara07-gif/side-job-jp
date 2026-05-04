@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://okuwabara07-gif.github.io/side-job-jp/sitemap.xml
+Disallow: /

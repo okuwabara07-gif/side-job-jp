@@ -16,7 +16,14 @@ export const metadata: Metadata = {
     title: '副業ノート',
     description: '副業・在宅ワーク情報',
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
